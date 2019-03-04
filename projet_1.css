@@ -94,3 +94,7 @@
     .nav-link {
     color: white !important;
     } 
+    
+    .amber.lighten-4 {
+        background-color: transparent!important;
+    } 

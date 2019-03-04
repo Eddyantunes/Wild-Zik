@@ -101,4 +101,25 @@
     .amber.lighten-4 {
         background-color: transparent!important;
     } 
-    
+    h1{
+        text-align: center;
+        font-family: monospace;
+        font-size: 200%;
+    }
+    .input-group.md-form.form-sm.form-1 input{
+        border: 2px solid
+        #BDBDBD
+        ;
+        border-top-right-radius: 0.25rem;
+        border-bottom-right-radius: 0.25rem;
+        }
+        .input-group.md-form.form-sm.form-2 input {
+        border: 2px solid
+        #BDBDBD
+        ;
+        border-top-left-radius: 0.25rem;
+        border-bottom-left-radius: 0.25rem;
+        }
+        .input-group.md-form.form-sm.form-2 input.white-border {
+        border: 2px solid white;
+        } 

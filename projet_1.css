@@ -42,7 +42,7 @@
     
     .animated-icon1 span {
     background:
-    #E65100
+    black
     ;
     }
     
@@ -89,10 +89,6 @@
     -moz-transform: rotate(-135deg);
     -o-transform: rotate(-135deg);
     transform: rotate(-135deg);
-    }
-    
-    a{
-    color: white;
     }
     
     .nav-link {

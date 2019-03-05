@@ -141,6 +141,6 @@ h5{
     font-size: 150%;
     color: black;
 }
-.row{
-    
+.card-img-top{
+    cursor: pointer;
 }

@@ -121,11 +121,11 @@ h2{
     text-align: center;
     font-family: monospace;
     font-size: 300%;
-    color: black;
+    color:white;
 }
 
 body {
-    background-image: url(http://gear-vault.com/wp-content/uploads/2008/06/history-esp-guitars-review.jpg);
+    background-color: black;
     background-attachment: fixed;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -139,7 +139,7 @@ h5{
     text-align: center;
     font-family: monospace;
     font-size: 150%;
-    color: black;
+    color:black;
 }
 .card-img-top{
     cursor: pointer;

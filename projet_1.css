@@ -169,4 +169,6 @@ position:relative ; bottom:-20px; right:200px;
 position:relative ; bottom:120px; right:-750px;
 
 }
-
+.card-img-top{
+    cursor: pointer;
+}

@@ -141,6 +141,32 @@ h5{
     font-size: 150%;
     color:black;
 }
-.row{
+.md-form {
+    width: 400px;
+    height: 36px;
+    position: relative; right: -600px;bottom:-45px;
     
+
 }
+
+
+.paypal{
+position:relative ; bottom:20px; right:200px;
+}
+.fab {
+
+position:relative ; bottom:20px; right:-600px;
+
+}    
+.text-uppercase{
+position:relative ; bottom:-20px; right:200px;
+
+}
+.list-unstyled{
+position:relative ; bottom:-20px; right:200px;
+}
+.maps{
+position:relative ; bottom:120px; right:-750px;
+
+}
+

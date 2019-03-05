@@ -204,3 +204,6 @@ position:relative ; bottom:120px; right:-750px;
 .card-img-top{
     cursor: pointer;
 }
+.p1{
+    font-size: 150%
+}

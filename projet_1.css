@@ -204,3 +204,6 @@ position:relative ; bottom:120px; right:-750px;
 .card-img-top{
     cursor: pointer;
 }
+.prix{
+    font-size: 300%!important;
+}

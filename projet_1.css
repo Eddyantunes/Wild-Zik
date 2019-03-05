@@ -125,7 +125,7 @@ h2{
 }
 
 body {
-    background-color: black;
+    /* background-color: black; */
     background-attachment: fixed;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -206,4 +206,9 @@ position:relative ; bottom:120px; right:-750px;
 }
 .prix{
     font-size: 300%!important;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
 }

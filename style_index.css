@@ -120,22 +120,50 @@
 
 
 .paypal{
-    position:relative ; bottom:20px; right:200px;
+    position:relative ; bottom:-40px; right:200px;
 }
-.fab {
     
-    position:relative ; bottom:20px; right:-600px;
-
-}    
-.text-uppercase{
-    position:relative ; bottom:-20px; right:200px;
-
+.text-uppercase4{
+    position:relative ; bottom:-20px; right:320px;
+    color:black;
+    }
+.text-uppercase1{
+    position:relative ; bottom:-20px; right:275px;
+    color:black;   
+    }
+.text-uppercase3{
+    position:relative ; bottom:-20px; right:-20px;
+    color:black;       
+    }
+.list-unstyled {
+    position:relative ; bottom:-20px; right:280px;
+    
 }
-.list-unstyled{
-    position:relative ; bottom:-20px; right:200px;
-}
+
 .maps{
-    position:relative ; bottom:120px; right:-750px;
-
+    position:relative ; bottom:100px; right:150px;
+    top:-50px;
+}
+.pay{
+    width:300px;
+    position:relative ; bottom:-30px; right:-20px;
+}
+.position{
+    position:relative ; bottom:-20px; right:350px;
+    margin:80px;
+    top:-50px;
+    width:300px;
+}
+.position1{
+   margin:-37px;
+   top:55px;
+}
+.social{
+    position:relative ; bottom:100px; right:-120px;
+    width:150px;
+    height:50px;
+}
+.container-fluid{
+    position:relative; right:-150px;
 }
 

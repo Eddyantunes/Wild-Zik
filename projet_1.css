@@ -44,7 +44,9 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
 }
-
+.caroussel{
+    height: 300px;
+}
 .bg-grey {
     background-color: gray;
 

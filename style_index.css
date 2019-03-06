@@ -166,4 +166,10 @@
 .container-fluid{
     position:relative; right:-150px;
 }
-
+.justify-content-center{
+    right:60px;
+    
+}
+.body{
+   height:2000px;
+}

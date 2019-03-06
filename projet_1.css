@@ -212,3 +212,6 @@ position:relative ; bottom:120px; right:-750px;
     cursor: pointer;
     box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
 }
+.modal-footer{
+    justify-content: space-around;
+}

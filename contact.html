@@ -5,24 +5,25 @@
 
 
 <head>
-<!-- Required meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-<!-- Font Awesome -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-<!-- Bootstrap core CSS -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-<!-- Material Design Bootstrap -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.4/css/mdb.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style_index.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.4/css/mdb.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style_index.css">
 
 
 
-    <title>Wildzik</title>
+  <title>Wildzik</title>
 
 
 
@@ -70,98 +71,113 @@
          <!-- Contactez-nous -->
 
 
+    </div>
+  </div>
 
-        <form id="contact-form " method="post" action="contact.php" role="form">
+  <!-- Contactez-nous -->
 
-          <div class="messages"></div>
-      
-          <div class="controls  ">
-            <h1 class="d-flex justify-content-center mt-5 mb-5">Contactez-nous</h1>
-      
-              <div class="row">
-                  <div class="col-md-6 ">
-                      <div class="form-group w-50 ml-4 shadow p-3 mb-5 bg-white rounded">
-                          <label for="form_name">Prénom *</label>
-                          <input id="form_name" type="text" name="name" class="form-control" placeholder="Entrer votre Prénom *" required="required" data-error="Firstname is required.">
-                          <div class="help-block with-errors"></div>
-                      </div>
-                  </div>
-                  <div class="col-md-6">
-                      <div class="form-group w-50 ml-4 shadow p-3 mb-5 bg-white rounded">
-                          <label for="form_lastname">Nom *</label>
-                          <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Entrer votre Nom *" required="required" data-error="Lastname is required.">
-                          <div class="help-block with-errors"></div>
-                      </div>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-md-6">
-                      <div class="form-group w-50 ml-4 shadow p-3 mb-5 bg-white rounded">
-                          <label for="form_email">Email *</label>
-                          <input id="form_email" type="email" name="email" class="form-control" placeholder="Entrer votre Email *" required="required" data-error="Valid email is required.">
-                          <div class="help-block with-errors"></div>
-                      </div>
-                  </div>
-                  <div class="col-md-6">
-                      <div class="form-group w-50 ml-4 shadow p-3 mb-5 bg-white rounded">
-                          <label for="form_need">Informations*</label>
-                          <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
-                              <option value=""></option>
-                              <option value="Request quotation">Service clientèle</option>
-                              <option value="Request order status">Service après-vente</option>
-                              <option value="Request copy of an invoice">Service transport</option>
-                              <option value="Other">Autre</option>
-                          </select>
-                          <div class="help-block with-errors"></div>
-                      </div>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-md-12 ">
-                      <div class="form-group w-50 ml-4 shadow p-3 mb-5 bg-white rounded">
-                          <label for="form_message">Message *</label>
-                          <textarea id="form_message" name="message" class="form-control" placeholder="Votre message ... " rows="4" required="required" data-error="Please, leave us a message."></textarea>
-                          <div class="help-block with-errors"></div>
-                      </div>
-                  </div>
-                  <div class="col-md-12 d-flex justify-content-center mb-5">
-                      <input type="submit" class="btn btn-success btn-send " value="Envoyer">
-                  </div>
-              </div>
-              
+
+
+  <form id="contact-form " method="post" action="contact.php" role="form">
+
+    <div class="messages"></div>
+
+    <div class="controls  ">
+      <h1 class="d-flex justify-content-center mt-5 mb-5">Contactez-nous</h1>
+
+      <div class="row">
+        <div class="col-md-6 ">
+          <div class="form-group w-50 ml-4 shadow p-3 mb-5 bg-white rounded">
+            <label for="form_name">Prénom *</label>
+            <input id="form_name" type="text" name="name" class="form-control" placeholder="Entrer votre Prénom *"
+              required="required" data-error="Firstname is required.">
+            <div class="help-block with-errors"></div>
           </div>
-      
-      </form>
-        <!-- Footer -->
-<footer class="page-footer font-small blue pt-4 ">
-  
-  <!-- Footer Links -->
-  <div class="container-fluid text-center text-md-left ">
-    
-
-    <!-- Grid row -->
-    <div class="row">
-      
-      <!-- Grid column -->
-      <div class="col-md-6 mt-md-0 mt-3">
-
-        <!-- Content -->
-        <h5 class="text-uppercase3">Moyens de paiements</h5>
-
-        <img src="file:///home/wilder/T%C3%A9l%C3%A9chargements/imageedit_1_9768336001.png" class="pay">
-        
+        </div>
+        <div class="col-md-6">
+          <div class="form-group w-50 ml-4 shadow p-3 mb-5 bg-white rounded">
+            <label for="form_lastname">Nom *</label>
+            <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Entrer votre Nom *"
+              required="required" data-error="Lastname is required.">
+            <div class="help-block with-errors"></div>
+          </div>
+        </div>
       </div>
-      <!-- Grid column -->
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group w-50 ml-4 shadow p-3 mb-5 bg-white rounded">
+            <label for="form_email">Email *</label>
+            <input id="form_email" type="email" name="email" class="form-control" placeholder="Entrer votre Email *"
+              required="required" data-error="Valid email is required.">
+            <div class="help-block with-errors"></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group w-50 ml-4 shadow p-3 mb-5 bg-white rounded">
+            <label for="form_need">Informations*</label>
+            <select id="form_need" name="need" class="form-control" required="required"
+              data-error="Please specify your need.">
+              <option value=""></option>
+              <option value="Request quotation">Service clientèle</option>
+              <option value="Request order status">Service après-vente</option>
+              <option value="Request copy of an invoice">Service transport</option>
+              <option value="Other">Autre</option>
+            </select>
+            <div class="help-block with-errors"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 ">
+          <div class="form-group w-50 ml-4 shadow p-3 mb-5 bg-white rounded">
+            <label for="form_message">Message *</label>
+            <textarea id="form_message" name="message" class="form-control" placeholder="Votre message ... " rows="4"
+              required="required" data-error="Please, leave us a message."></textarea>
+            <div class="help-block with-errors"></div>
+          </div>
+        </div>
+        <div class="col-md-12 d-flex justify-content-center mb-5">
+          <input type="submit" class="btn btn-success btn-send " value="Envoyer">
+        </div>
+      </div>
 
-      <hr class="clearfix w-100 d-md-none pb-3">
+    </div>
 
-      <!-- Grid column -->
-      <div class="col-md-3 mb-md-0 mb-3">
+  </form>
+
+
+
+
+  <!-- Footer -->
+  <footer class="page-footer font-small blue pt-4 ">
+      
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left ">
+
+      
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-4 mt-md-0 mt-3 ">
+
+          <!-- Content -->
+          <h5 class="text-uppercase3">Moyens de paiements</h5>
+
+          <img src="file:///home/wilder/T%C3%A9l%C3%A9chargements/imageedit_1_9768336001.png" class="pay">
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-sm-12  mb-3 w-25">
 
           <!-- Links -->
-          <h5 class="text-uppercase4">Plan du site</h5>
+          <h5 class="text-uppercase4 text-center">Plan du site</h5>
 
-          <ul class="list-unstyled position1">
+          <ul class="list-unstyled position1 text-center">
             <li>
               <a href="#!">Home</a>
             </li>
@@ -182,58 +198,69 @@
             </li>
             <li>
               <a href="#!">Contact</a>
-              
-              </li>
+
+            </li>
           </ul>
-          
-          <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2700.9347722878765!2d0.6681308360534808!3d47.393705543999424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fcd593f2397ee3%3A0xf59dd58d55f79b77!2sMAME!5e0!3m2!1sfr!2sfr!4v1551777203573" width="200" height="130" frameborder="0" style="border:0" allowfullscreen class="maps"></iframe>
-        <img src="file:///home/wilder/T%C3%A9l%C3%A9chargements/imageedit_1_4395432263.png" class="social">
 
-                </div>
-        <!-- Grid column -->
+          <div class="text-center">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2700.9347722878765!2d0.6681308360534808!3d47.393705543999424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fcd593f2397ee3%3A0xf59dd58d55f79b77!2sMAME!5e0!3m2!1sfr!2sfr!4v1551777203573"
+            width="200" height="130" frameborder="0" style="border:0" allowfullscreen class="maps"></iframe>
+          </div>
 
+        </div>
         <!-- Grid column -->
-        <div class="col-md-3 mb-md-0 mb-3">
+        <hr class="clearfix w-100 d-md-none pb-3">
+        <!-- Grid column -->
+        
+        <div class="col-md-4 mb-md-1 mb-3 text-center">
 
           <!-- Links -->
-          <h5 class="text-uppercase1">Contact</h5>
+          <h5 class="text-uppercase1 text-center">Contact</h5>
 
-          <ul class="list-unstyled position">
+          <ul class="list-unstyled position text-center">
             <li>
-              <p>Conseil et commande téléphone.<br>Du lundi au vendredi de 9h à 19h,<br> le samedi de 10h à 18h.<br> Numéro Tél. 02 40 38 00 00</p>
+              <p>Conseil et commande téléphone.<br>Du lundi au vendredi de 9h à 19h,<br> le samedi de 10h à 18h.<br>
+                Numéro Tél. 02 40 38 00 00</p>
             </li>
-            
+
           </ul>
-          
+          <img src="file:///home/wilder/T%C3%A9l%C3%A9chargements/imageedit_1_4395432263.png" class="social">
         </div>
-        
+
+      </div>
+      <!-- Grid row -->
+
     </div>
-    <!-- Grid row -->
+    <!-- Footer Links -->
 
-  </div>
-  <!-- Footer Links -->
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/"> Wild'Zik.com</a>
+    </div>
+    <!-- Copyright -->
 
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2018 Copyright:
-    <a href="https://mdbootstrap.com/education/bootstrap/"> Wild'Zik.com</a>
-  </div>
-  <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
 
-</footer>
-<!-- Footer -->
-      
-                                    <!--Page-Contact-->         
+  <!--Page-Contact-->
 
 
 
 
 
 
- <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
 
 

@@ -1,7 +1,22 @@
+/* NAV - BAR */
+
+.nav{
+    background-color: black;
+   
+}
+.nav-link{
+    justify-content: space-around;
+}
 .jumbotron {
-    background-image: url("https://linfotoutcourt.com/wp-content/uploads/2015/11/Rock-Band-4-une-premi%C3%A8re-grosse-mise-%C3%A0-jour_rb4-blog-img.png");
+    background-image: url("https://linfotoutcourt.com/wp-content/uploads/2015/11/Rock-Band-4-une-premi%C3%A8re-grosse-mise-%C3%A0-jour_rb4-blog-img.png") ;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.nav-item:hover{
+    color: white;
+    background-color: grey;
+    opacity: 0.8;
+    border-radius: 10px;
 }
 
 /* Icon 1 */
@@ -109,6 +124,17 @@
     border: 2px solid white;
 }
 
+/* Carousel */
+.carrousel{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.carrousel img{
+    max-height: 500px;
+}
+   
+/* Footers */
 .md-form {
     width: 400px;
     height: 36px;
@@ -194,15 +220,23 @@
 .justify-content-center {
     right: 60px;
 }
+<<<<<<< HEAD
 
 .prix{
     font-size: 300%!important;
+=======
+.container-fluid{
+    position:relative; right: -150px;
+>>>>>>> a07df0f20b8e2e2751a96f509abee737437a469b
 }
 
 .card:hover {
     cursor: pointer;
     box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
 }
+<<<<<<< HEAD
 .modal-footer{
     justify-content: space-around;
 }
+=======
+>>>>>>> a07df0f20b8e2e2751a96f509abee737437a469b

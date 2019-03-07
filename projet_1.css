@@ -4,7 +4,12 @@
     background-size: cover;
 }
 
-
+.nav-item:hover{
+    color: white;
+    background-color: grey;
+    opacity: 0.8;
+    border-radius: 10px;
+}
 .amber.lighten-4 {
     background-color: transparent!important;
 }

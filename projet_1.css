@@ -126,8 +126,17 @@ position:relative ; bottom:120px; right:-750px;
 
 .card:hover {
     cursor: pointer;
-    box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;;
 }
 .modal-footer{
     justify-content: space-around;
+}
+body{
+    background-color:#DAD5B7;
+}
+.list-group-item,.list-group{
+    background-color: rgba(0,0,0,.175);
+}
+.card-body{
+    background-color: rgba(0,0,0,.175);
 }

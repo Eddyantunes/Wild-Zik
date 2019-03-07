@@ -8,13 +8,27 @@
     justify-content: space-around;
 }
 .jumbotron {
-    background-image: url("https://linfotoutcourt.com/wp-content/uploads/2015/11/Rock-Band-4-une-premi%C3%A8re-grosse-mise-%C3%A0-jour_rb4-blog-img.png");
+    background-image: url("https://linfotoutcourt.com/wp-content/uploads/2015/11/Rock-Band-4-une-premi%C3%A8re-grosse-mise-%C3%A0-jour_rb4-blog-img.png") ;
     background-repeat: no-repeat;
     background-size: cover;
     
 }
+.nav-item:hover{
+    color: white;
+    background-color: grey;
+    opacity: 0.8;
+    border-radius: 10px;
+}
 
-
+/* Carousel */
+.carrousel{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.carrousel img{
+    max-height: 500px;
+}
    
 /* Footers */
 .md-form {

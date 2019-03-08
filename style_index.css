@@ -264,14 +264,12 @@ footer a {
 .h3-responsive a{
     color:white;
 }
-{
-    font-size: 300%;
-}
+
 .liste{
     max-height: 100px;
     min-height: 100px;
  }
 .image{
     min-height: 300px;
-    max-height: 2300px
+    max-height: 300px
 }

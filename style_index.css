@@ -267,3 +267,7 @@ footer a {
 {
     font-size: 300%;
 }
+.liste{
+    max-height: 300px;
+    min-height: 100px;
+}

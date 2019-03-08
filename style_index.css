@@ -134,6 +134,11 @@
 .carrousel img{
     max-height: 500px;
 }
+/*cards*/
+
+.espace{
+    height:50px;
+}
    
 /* Footers */
 .md-form {
@@ -245,13 +250,15 @@ body{
     background-color: #DAD5B7;
 }
 p{
-    font-size: 300%
+    font-size: 300%;
 }
 .h3-responsive{
-    font-size: 400%
+    font-size: 400%;
 }
 
 footer a {
     color:black !important;
 }
-
+.h3-responsive a{
+    color:white;
+}

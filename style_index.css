@@ -19,7 +19,9 @@
     opacity: 0.8;
     border-radius: 10px;
 }
-
+.image{
+    min-height: 200px;
+}
 /* Icon 1 */
 
 .animated-icon1, .animated-icon2, .animated-icon3 {

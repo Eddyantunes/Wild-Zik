@@ -250,7 +250,7 @@ body{
     background-color: #DAD5B7;
 }
 p{
-    font-size: 300%;
+    font-size: 150%;
 }
 .h3-responsive{
     font-size: 400%;
@@ -261,4 +261,7 @@ footer a {
 }
 .h3-responsive a{
     color:white;
+}
+{
+    font-size: 300%;
 }

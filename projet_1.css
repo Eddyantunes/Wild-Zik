@@ -1,14 +1,22 @@
+
+.nav{
+    background-color: black;
+    
+   
+}
+.nav-link{
+    justify-content: space-around;
+}
 .jumbotron {
-    background-image: url("https://linfotoutcourt.com/wp-content/uploads/2015/11/Rock-Band-4-une-première-grosse-mise-à-jour_rb4-blog-img.png");
+    background-image: url("https://linfotoutcourt.com/wp-content/uploads/2015/11/Rock-Band-4-une-premi%C3%A8re-grosse-mise-%C3%A0-jour_rb4-blog-img.png") ;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
-.amber.lighten-4 {
-    background-color: transparent!important;
-}
-
+.nav-item:hover{
+    color: white;
+    background-color: grey;
+    opacity: 0.8;
+    border-radius: 10px;
 h1 {
     text-align: center;
     font-family: monospace;
@@ -58,7 +66,10 @@ h5{
     color:black;
 }
 
-
+.container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
 .paypal{
 position:relative ; bottom:20px; right:200px;
@@ -112,6 +123,7 @@ position:relative ; bottom:-20px; right:200px;
 }
 .list-unstyled{
 position:relative ; bottom:-20px; right:200px;
+color: black;
 }
 .maps{
 position:relative ; bottom:120px; right:-750px;
@@ -126,8 +138,18 @@ position:relative ; bottom:120px; right:-750px;
 
 .card:hover {
     cursor: pointer;
-    box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;;
 }
 .modal-footer{
     justify-content: space-around;
 }
+body{
+    background-color:#DAD5B7;
+}
+.list-group-item,.list-group{
+    background-color: rgba(0,0,0,.175);
+}
+.card-body{
+    background-color: rgba(0,0,0,.175);
+}
+

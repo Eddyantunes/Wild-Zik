@@ -9,40 +9,45 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
     <!-- Bootstrap core CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.4/css/mdb.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="projet_1.css">
+    <link rel="stylesheet" href="style_index.css">
 
 
 
-    <title>Wild'zik</title>
-
+    <title>Wildzik</title>
 
 
 
 
 </head>
 
+
+
 <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark ">
-        <a class="navbar-brand" href="#">Wild'Zik</a>
+        <a class="navbar-brand" href="index.html">Wild'Zik</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="guitare.html">Guitare</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="bass.html">Basse</a>
                 </li>
                 <li class="nav-item">
@@ -60,7 +65,6 @@
             </ul>
         </div>
     </nav>
-
     <div class="container mt-5">
         <h2>Basses 4 cordes</h2>
         <div class="row">
@@ -68,7 +72,7 @@
                 <div class="card mt-2">
                     <img class="card-img-top p-2"
                         src="https://thumbs.static-thomann.de/thumb/thumb150x150/pics/prod/139024.jpg"
-                        data-toggle="modal" data-target="#harley">
+                        data-toggle="modal" data-target="#harley" alt="harley">
                     <ul class="list-group list-group-flush mt-2">
                         <li class="list-group-item">
                             <h4 class="font-weight-bold">Harley Benton PJ-4 HTR Deluxe Series</h4>
@@ -79,8 +83,7 @@
                     <div class="card-body d-flex justify-content-center">
                         <button type="button" class="btn btn-primary" data-toggle="modal"
                             data-target="#harley">Panier</button>
-                        <div class="modal fade" id="harley" tabindex="-1" role="dialog"
-                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal fade" id="harley" tabindex="-1" role="dialog">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -93,7 +96,7 @@
                                     <div class="modal-body">
                                         <div class="media">
                                             <img src="https://www.thomann.de/pics/prod/139024.jpg"
-                                                class="align-self-center mr-3" alt="...">
+                                                class="align-self-center mr-3" alt="modal">
                                             <div class="media-body">
                                                 <ul>
                                                     <li>4 cordes</li>
@@ -131,7 +134,7 @@
                 <div class="card mt-2">
                     <img class="card-img-top p-2"
                         src="https://thumbs.static-thomann.de/thumb/thumb150x150/pics/prod/446264.jpg"
-                        data-toggle="modal" data-target="#Tanglewood">
+                        data-toggle="modal" data-target="#Tanglewood " alt="img">
                     <ul class="list-group list-group-flush mt-2">
                         <li class="list-group-item">
                             <h4 class="font-weight-bold">Marcus Miller V7 Swamp Ash-4NT</h4>
@@ -143,12 +146,11 @@
                     <div class="card-body d-flex justify-content-center">
                         <button type="button" class="btn btn-primary" data-toggle="modal"
                             data-target="#Tanglewood">Panier</button>
-                        <div class="modal fade" id="Tanglewood" tabindex="-1" role="dialog"
-                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal fade" id="Tanglewood" tabindex="-1" role="dialog">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Marcus Miller V7 Swamp Ash-4
+                                        <h5 class="modal-title">Marcus Miller V7 Swamp Ash-4
                                             NT</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
@@ -195,7 +197,7 @@
                 <div class="card mt-2">
                     <img class="card-img-top p-2"
                         src="https://thumbs.static-thomann.de/thumb/thumb150x150/pics/prod/439998.jpg"
-                        data-toggle="modal" data-target="#Guild">
+                        data-toggle="modal" data-target="#Guild" alt="img">
                     <ul class="list-group list-group-flush mt-2">
                         <li class="list-group-item">
                             <h4 class="font-weight-bold">Sandberg Forty Eight VM 4 FOBK</h4>
@@ -208,12 +210,11 @@
                         <button type="button" class="btn btn-primary" data-toggle="modal"
                             data-target="#Guild">Panier</button>
                         <!-- Modal -->
-                        <div class="modal fade" id="Guild" tabindex="-1" role="dialog"
-                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal fade" id="Guild" tabindex="-1" role="dialog">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Sandberg Forty Eight VM 4 FO
+                                        <h5 class="modal-title">Sandberg Forty Eight VM 4 FO
                                             BK</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
@@ -260,7 +261,7 @@
                 <div class="card mt-2">
                     <img class="card-img-top p-2"
                         src="https://thumbs.static-thomann.de/thumb/thumb150x150/pics/prod/342593.jpg"
-                        data-toggle="modal" data-target="#Martin">
+                        data-toggle="modal" data-target="#Martin" alt="img">
                     <ul class="list-group list-group-flush mt-2">
                         <li class="list-group-item">
                             <h4 class="font-weight-bold">Warwick AL Bootsy Collins Spacebass</h4>
@@ -273,12 +274,11 @@
                         <button type="button" class="btn btn-primary" data-toggle="modal"
                             data-target="#Martin">Panier</button>
                         <!-- Modal -->
-                        <div class="modal fade" id="Martin" tabindex="-1" role="dialog"
-                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal fade" id="Martin" tabindex="-1" role="dialog">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Warwick AL Bootsy Collins
+                                        <h5 class="modal-title">Warwick AL Bootsy Collins
                                             Spacebass</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
@@ -313,7 +313,7 @@
                                         </div>
                                     </div>
                                     <div class="modal-footer">
-                                        <p class="prix">1229 €</p>
+                                        <p class="prix">1225 €</p>
                                         <button type="button" class="btn btn-primary">Panier</button>
                                     </div>
                                 </div>
@@ -332,7 +332,7 @@
                 <div class="card mt-2">
                     <img class="card-img-top p-2"
                         src="https://thumbs.static-thomann.de/thumb/thumb150x150/pics/prod/443506.jpg"
-                        data-toggle="modal" data-target="#exampleModalCenter">
+                        data-toggle="modal" data-target="#exampleModalCenter" alt="img">
                     <ul class="list-group list-group-flush mt-2">
                         <li class="list-group-item">
                             <h4 class="font-weight-bold">Harley Benton Enhanced MP-5MN</h4>
@@ -346,12 +346,11 @@
                             data-target="#exampleModalCenter">Panier</button>
 
                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Harley Benton Enhanced MP-5MN
+                                        <h5 class="modal-title">Harley Benton Enhanced MP-5MN
                                         </h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
@@ -398,7 +397,7 @@
                 <div class="card mt-2">
                     <img class="card-img-top p-2"
                         src="https://thumbs.static-thomann.de/thumb/thumb150x150/pics/prod/446118.jpg"
-                        data-toggle="modal" data-target="#Epiphonmodal">
+                        data-toggle="modal" data-target="#Epiphonmodal" alt="img">
                     <ul class="list-group list-group-flush mt-2">
                         <li class="list-group-item">
                             <h4 class="font-weight-bold">Marcus Miller V9 Swamp Ash 5TBK</h4>
@@ -411,12 +410,11 @@
                         <button type="button" class="btn btn-primary" data-toggle="modal"
                             data-target="#Epiphonmodal">Panier</button>
                         <!-- Modal -->
-                        <div class="modal fade" id="Epiphonmodal" tabindex="-1" role="dialog"
-                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal fade" id="Epiphonmodal" tabindex="-1" role="dialog">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Marcus Miller V9 Swamp Ash 5
+                                        <h5 class="modal-title">Marcus Miller V9 Swamp Ash 5
                                             TBK</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
@@ -464,7 +462,7 @@
                 <div class="card mt-2">
                     <img class="card-img-top p-2"
                         src="https://thumbs.static-thomann.de/thumb/thumb150x150/pics/prod/243548.jpg"
-                        data-toggle="modal" data-target="#GuildStarfire">
+                        data-toggle="modal" data-target="#GuildStarfire" alt="img">
                     <ul class="list-group list-group-flush mt-2">
                         <li class="list-group-item">
                             <h4 class="font-weight-bold">ESP LTD F-415 FM STBK</h4>
@@ -477,12 +475,11 @@
                         <button type="button" class="btn btn-primary" data-toggle="modal"
                             data-target="#GuildStarfire">Panier</button>
                         <!-- Modal -->
-                        <div class="modal fade" id="GuildStarfire" tabindex="-1" role="dialog"
-                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal fade" id="GuildStarfire" tabindex="-1" role="dialog">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle"> ESP LTD F-415 FM STBK </h5>
+                                        <h5 class="modal-title"> ESP LTD F-415 FM STBK </h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
@@ -527,7 +524,7 @@
                 <div class="card mt-2">
                     <img class="card-img-top p-2"
                         src="https://thumbs.static-thomann.de/thumb/thumb150x150/pics/prod/368589.jpg"
-                        data-toggle="modal" data-target="#Sandberg">
+                        data-toggle="modal" data-target="#Sandberg" alt="img">
                     <ul class="list-group list-group-flush mt-2">
                         <li class="list-group-item">
                             <h4 class="font-weight-bold">Sandberg Forty Eight 5 VM BK</h4>
@@ -540,12 +537,11 @@
                         <button type="button" class="btn btn-primary" data-toggle="modal"
                             data-target="#Sandberg">Panier</button>
                         <!-- Modal -->
-                        <div class="modal fade" id="Sandberg" tabindex="-1" role="dialog"
-                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal fade" id="Sandberg" tabindex="-1" role="dialog">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle"> Sandberg Forty Eight 5 VM BK
+                                        <h5 class="modal-title"> Sandberg Forty Eight 5 VM BK
                                         </h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
@@ -595,7 +591,7 @@
                 <div class="card mt-2">
                     <img class="card-img-top p-2"
                         src="https://thumbs.static-thomann.de/thumb/thumb150x150/pics/prod/317321.jpg"
-                        data-toggle="modal" data-target="#Squier">
+                        data-toggle="modal" data-target="#Squier" alt="img">
                     <ul class="list-group list-group-flush mt-2">
                         <li class="list-group-item">
                             <h4 class="font-weight-bold">Harley Benton B-650 Black</h4>
@@ -608,12 +604,11 @@
                         <button type="button" class="btn btn-primary" data-toggle="modal"
                             data-target="#Squier">Panier</button>
                         <!-- Modal -->
-                        <div class="modal fade" id="Squier" tabindex="-1" role="dialog"
-                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal fade" id="Squier" tabindex="-1" role="dialog">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Harley Benton B-650 Black
+                                        <h5 class="modal-title">Harley Benton B-650 Black
                                         </h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
@@ -662,7 +657,7 @@
                 <div class="card mt-2">
                     <img class="card-img-top p-2"
                         src="https://thumbs.static-thomann.de/thumb/thumb150x150/pics/prod/385512.jpg"
-                        data-toggle="modal" data-target="#Player">
+                        data-toggle="modal" data-target="#Player" alt="img">
                     <ul class="list-group list-group-flush mt-2">
                         <li class="list-group-item">
                             <h4 class="font-weight-bold">ESP LTD B-206SM STBLKS</h4>
@@ -675,12 +670,11 @@
                         <button type="button" class="btn btn-primary" data-toggle="modal"
                             data-target="#Player">Panier</button>
                         <!-- Modal -->
-                        <div class="modal fade" id="Player" tabindex="-1" role="dialog"
-                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal fade" id="Player" tabindex="-1" role="dialog">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">ESP LTD B-206SM STBLKS</h5>
+                                        <h5 class="modal-title">ESP LTD B-206SM STBLKS</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
@@ -728,7 +722,7 @@
                 <div class="card mt-2">
                     <img class="card-img-top p-2"
                         src="https://thumbs.static-thomann.de/thumb/thumb150x150/pics/prod/247481.jpg"
-                        data-toggle="modal" data-target="#LesPaul">
+                        data-toggle="modal" data-target="#LesPaul" alt="img">
                     <ul class="list-group list-group-flush mt-2">
                         <li class="list-group-item">
                             <h4 class="font-weight-bold">Music Man Bongo 6 HH Stealth Black</h4>
@@ -741,12 +735,11 @@
                         <button type="button" class="btn btn-primary" data-toggle="modal"
                             data-target="#LesPaul">Panier</button>
                         <!-- Modal -->
-                        <div class="modal fade" id="LesPaul" tabindex="-1" role="dialog"
-                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal fade" id="LesPaul" tabindex="-1" role="dialog">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Music Man Bongo 6 HH Stealth
+                                        <h5 class="modal-title">Music Man Bongo 6 HH Stealth
                                             Black</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
@@ -794,7 +787,7 @@
                 <div class="card mt-2">
                     <img class="card-img-top p-2"
                         src="https://thumbs.static-thomann.de/thumb/thumb150x150/pics/prod/346664.jpg"
-                        data-toggle="modal" data-target="#JohnMayer">
+                        data-toggle="modal" data-target="#JohnMayer" alt="img">
                     <ul class="list-group list-group-flush mt-2">
                         <li class="list-group-item">
                             <h4 class="font-weight-bold">Fodera Emperor 6 Standard#5952</h4>
@@ -807,12 +800,11 @@
                         <button type="button" class="btn btn-primary" data-toggle="modal"
                             data-target="#JohnMayer">Panier</button>
                         <!-- Modal -->
-                        <div class="modal fade" id="JohnMayer" tabindex="-1" role="dialog"
-                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal fade" id="JohnMayer" tabindex="-1" role="dialog">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Fodera Emperor 6 Standard
+                                        <h5 class="modal-title">Fodera Emperor 6 Standard
                                             #5952</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
@@ -859,121 +851,128 @@
 
         </div>
     </div>
-</body>
 
 
 
-<!-- Footer -->
-<footer class="page-footer font-small blue pt-4 ">
 
-    <!-- Footer Links -->
-    <div class="container-fluid text-center text-md-left ">
+    <footer class="blue font-small blue pt-4">
+        <!-- Footer -->
 
 
-        <!-- Grid row -->
-        <div class="row">
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left ">
 
-            <!-- Grid column -->
-            <div class="col-md-6 mt-md-0 mt-3">
 
-                <!-- Content -->
-                <h5 class="text-uppercase3">Moyens de paiements</h5>
+            <!-- Grid row -->
+            <div class="row">
 
-                <img src="file:///home/wilder/T%C3%A9l%C3%A9chargements/imageedit_1_9768336001.png" class="pay">
+                <!-- Grid column -->
+                <div class="col-md-4 mt-md-0 mt-3 ">
+
+                    <!-- Content -->
+                    <h5 class="text-uppercase3">Moyens de paiements</h5>
+
+                    <img src="imageedit_1_9768336001.png" class="pay" alt="imgpay">
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-sm-12  mb-3 ">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase4 text-center">Plan du site</h5>
+
+                    <ul class="list-unstyled position1 text-center">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="guitare.html">Guitare</a>
+                        </li>
+                        <li>
+                            <a href="bass.html">Basse</a>
+                        </li>
+                        <li>
+                            <a href="batterie.html">Batterie</a>
+                        </li>
+                        <li>
+                            <a href="platine.html">Platines</a>
+                        </li>
+                        <li>
+                            <a href="prof.html">Cours particulier</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+
+                        </li>
+                    </ul>
+
+                    <div class="text-center">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2700.9347722878765!2d0.6681308360534808!3d47.393705543999424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fcd593f2397ee3%3A0xf59dd58d55f79b77!2sMAME!5e0!3m2!1sfr!2sfr!4v1551777203573"
+                            width="200" height="130" frameborder="0" style="border:0" allowfullscreen
+                            class="maps"></iframe>
+                    </div>
+
+                </div>
+                <!-- Grid column -->
+                <hr class="clearfix w-100 d-md-none pb-3">
+                <!-- Grid column -->
+
+                <div class="col-md-4 mb-md-1 mb-3 text-center">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase1 text-center">Contact</h5>
+
+                    <ul class="list-unstyled position text-center">
+                        <li>
+                            <h8>Conseil et commande téléphone.<br>Du lundi au vendredi de 9h à 19h,<br> le samedi de 10h
+                                à
+                                18h.<br>
+                                Numéro Tél. 02 40 38 00 00</H>
+                        </li>
+
+                    </ul>
+                    <img src="imageedit_1_4395432263.png" class="social"
+                        alt="imgsocial">
+                </div>
 
             </div>
-            <!-- Grid column -->
-
-            <hr class="clearfix w-100 d-md-none pb-3">
-
-            <!-- Grid column -->
-            <div class="col-md-3 mb-md-0 mb-3">
-
-                <!-- Links -->
-                <h5 class="text-uppercase4">Plan du site</h5>
-
-                <ul class="list-unstyled position1">
-                    <li>
-                        <a href="#!">Home</a>
-                    </li>
-                    <li>
-                        <a href="#!">Guitare</a>
-                    </li>
-                    <li>
-                        <a href="#!">Basse</a>
-                    </li>
-                    <li>
-                        <a href="#!">Batterie</a>
-                    </li>
-                    <li>
-                        <a href="#!">Platines</a>
-                    </li>
-                    <li>
-                        <a href="#!">Cours particulier</a>
-                    </li>
-                    <li>
-                        <a href="#!">Contact</a>
-
-                    </li>
-                </ul>
-
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2700.9347722878765!2d0.6681308360534808!3d47.393705543999424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fcd593f2397ee3%3A0xf59dd58d55f79b77!2sMAME!5e0!3m2!1sfr!2sfr!4v1551777203573"
-                    width="200" height="130" frameborder="0" style="border:0" allowfullscreen class="maps"></iframe>
-                <img src="file:///home/wilder/T%C3%A9l%C3%A9chargements/imageedit_1_4395432263.png" class="social">
-
-            </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col-md-3 mb-md-0 mb-3">
-
-                <!-- Links -->
-                <h5 class="text-uppercase1">Contact</h5>
-
-                <ul class="list-unstyled position">
-                    <li>
-                        <p>Conseil et commande téléphone.<br>Du lundi au vendredi de 9h à 19h,<br> le samedi de 10h à
-                            18h.<br> Numéro Tél. 02 40 38 00 00</p>
-                    </li>
-
-                </ul>
-
-            </div>
+            <!-- Grid row -->
 
         </div>
-        <!-- Grid row -->
+        <!-- Footer Links -->
 
-    </div>
-    <!-- Footer Links -->
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+            <a href="https://mdbootstrap.com/education/bootstrap/"> Wild'Zik.com</a>
+        </div>
+        <!-- Copyright -->
 
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2018 Copyright:
-        <a href="https://mdbootstrap.com/education/bootstrap/"> Wild'Zik.com</a>
-    </div>
-    <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
 
-</footer>
-<!-- Footer -->
-
-<!--Page-Contact-->
+    <!--Page-Contact-->
 
 
 
 
 
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 

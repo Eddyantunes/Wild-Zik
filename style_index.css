@@ -2,6 +2,7 @@
 
 .nav{
     background-color: black;
+    
    
 }
 .nav-link{
@@ -220,23 +221,37 @@
 .justify-content-center {
     right: 60px;
 }
-<<<<<<< HEAD
 
 .prix{
     font-size: 300%!important;
-=======
-.container-fluid{
-    position:relative; right: -150px;
->>>>>>> a07df0f20b8e2e2751a96f509abee737437a469b
 }
 
 .card:hover {
     cursor: pointer;
     box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
 }
-<<<<<<< HEAD
+
 .modal-footer{
     justify-content: space-around;
 }
-=======
->>>>>>> a07df0f20b8e2e2751a96f509abee737437a469b
+
+h2{
+    text-align: center;
+  
+   
+   
+}
+body{
+    background-color: #DAD5B7;
+}
+p{
+    font-size: 300%
+}
+.h3-responsive{
+    font-size: 400%
+}
+
+footer a {
+    color:black !important;
+}
+

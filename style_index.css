@@ -19,7 +19,9 @@
     opacity: 0.8;
     border-radius: 10px;
 }
-
+.image{
+    min-height: 200px;
+}
 /* Icon 1 */
 
 .animated-icon1, .animated-icon2, .animated-icon3 {
@@ -262,10 +264,12 @@ footer a {
 .h3-responsive a{
     color:white;
 }
-{
-    font-size: 300%;
-}
+
 .liste{
-    max-height: 300px;
+    max-height: 100px;
     min-height: 100px;
+ }
+.image{
+    min-height: 300px;
+    max-height: 300px
 }
